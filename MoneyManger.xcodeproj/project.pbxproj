@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E13F6F9273BA84E0000961E /* PassCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13F6F8273BA84E0000961E /* PassCodeView.swift */; };
+		1E3B99D0273FFE6500C366FF /* Transcation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B99CE273FFE6500C366FF /* Transcation.xcdatamodeld */; };
 		1E6FE0A2273A8DAA009A00F7 /* MoneyMangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FE0A1273A8DAA009A00F7 /* MoneyMangerApp.swift */; };
 		1E6FE0A4273A8DAB009A00F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FE0A3273A8DAB009A00F7 /* ContentView.swift */; };
 		1E6FE0A6273A8DB0009A00F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6FE0A5273A8DB0009A00F7 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		1E13F6F8273BA84E0000961E /* PassCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCodeView.swift; sourceTree = "<group>"; };
+		1E3B99CF273FFE6500C366FF /* Transcation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Transcation.xcdatamodel; sourceTree = "<group>"; };
 		1E6FE09E273A8DAA009A00F7 /* MoneyManger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6FE0A1273A8DAA009A00F7 /* MoneyMangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyMangerApp.swift; sourceTree = "<group>"; };
 		1E6FE0A3273A8DAB009A00F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				1EBBFC67273C3F8D000A7F0A /* Transcation.xcdatamodeld */,
+				1E3B99CE273FFE6500C366FF /* Transcation.xcdatamodeld */,
 				1EBBFC65273C3F70000A7F0A /* PersistanceController.swift */,
 				1E6FE0BD273ABDAA009A00F7 /* text+extension.swift */,
 				1E6FE0B2273A8DF5009A00F7 /* Scrrens */,
@@ -190,6 +193,7 @@
 				1EBBFC6F273C7FD3000A7F0A /* MangerModel.swift in Sources */,
 				1EBBFC66273C3F70000A7F0A /* PersistanceController.swift in Sources */,
 				1EBBFC6B273C5DF2000A7F0A /* AddNameView.swift in Sources */,
+				1E3B99D0273FFE6500C366FF /* Transcation.xcdatamodeld in Sources */,
 				1E6FE0BE273ABDAA009A00F7 /* text+extension.swift in Sources */,
 				1E6FE0B4273A8E28009A00F7 /* HomeScreen.swift in Sources */,
 				1E13F6F9273BA84E0000961E /* PassCodeView.swift in Sources */,
@@ -403,6 +407,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		1E3B99CE273FFE6500C366FF /* Transcation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E3B99CF273FFE6500C366FF /* Transcation.xcdatamodel */,
+			);
+			currentVersion = 1E3B99CF273FFE6500C366FF /* Transcation.xcdatamodel */;
+			path = Transcation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		1EBBFC67273C3F8D000A7F0A /* Transcation.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

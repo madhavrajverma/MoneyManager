@@ -122,6 +122,8 @@ struct AddNew: View {
             transcation.price = Double(price) ?? 00
             transcation.date = date
             transcation.category = categoy
+           
+            transcation.id = UUID()
             
             let newPrice = Double(price) ?? 0
             
